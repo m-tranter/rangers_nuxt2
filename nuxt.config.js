@@ -5,7 +5,7 @@ export default {
     buildAssetsDir: '/rangersnuxt2/'
   },
   router: {
-    middleware: 'logger',
+    middleware: 'prefetch',
   },
   head: {
     title: 'Rangers Events',
