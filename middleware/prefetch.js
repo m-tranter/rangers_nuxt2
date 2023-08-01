@@ -1,7 +1,12 @@
+// Modified the middleware to pre-fetch data from Contensis
+// renamed it.
+
 const url =
   'https://cms-chesheast.cloud.contensis.com/api/delivery/projects/website/contentTypes/rangerEvents/entries?accessToken=QCpZfwnsgnQsyHHB3ID5isS43cZnthj6YoSPtemxFGtcH15I&pageSize=500';
 
 export default async (ctx) => {
+  console.log(`Incoming: ${ctx.route.path}`);
+
   let { items } = await fetch(url).then((response) => {
     return response.json();
   });
