@@ -31,7 +31,7 @@ jobs:
       uses: contensis/block-push@v1
       with:
         alias: chesheast
-        block-id: rangersnuxt
+        block-id: rangersnuxt2
         client-id: ${{ secrets.Z_CLIENT_ID }}
         git-token: ${{ secrets.GIT_TOKEN }}
         image-uri: antiloquax/rangersnuxt2:${{ github.run_number }} 
