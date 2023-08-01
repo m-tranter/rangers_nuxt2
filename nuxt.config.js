@@ -2,7 +2,8 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'server',
   app: {
-    buildAssetsDir: '/rangersnuxt2/',
+    buildAssetsDir: '/rangersnuxt2/'
+  },
   router: {
     middleware: 'logger',
   },
