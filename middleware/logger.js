@@ -6,7 +6,6 @@ export default async (ctx) => {
     return response.json();
   });
   let arr = createDates(items.slice());
-
   if (arr.length) {
     arr.sort(sortDate);
   }
