@@ -2,7 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'server',
 build: {
-  publicPath: '/customName/'
+  publicPath: '/rangersnuxt2/'
 },
   router: {
     middleware: 'prefetch',
